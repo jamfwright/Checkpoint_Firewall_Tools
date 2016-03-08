@@ -1,6 +1,6 @@
 # Checkpoint_Firewall_Tools
 
-These are python tools to ease some of the administrative tasks for Checkpoint Firewalls running the Gaia OS.  Each script was designed for ease of use, and will ask you for information before executing.  One thing to have ready is a list of firewall IP addresses in a plain text/ascii file to use as input.
+These are python tools to ease some of the administrative tasks for Checkpoint Firewalls running the Gaia OS - Can be run from Windows or Linux.  Each script was designed for ease of use, and will ask you for information before executing.  One thing to have ready is a list of firewall IP addresses in a plain text/ascii file to use as input.
 
 You will need to ensure you have Paramiko installed. (pip install paramiko, or apt-get install python-paramiko, or zypper in python-paramiko, or any other method)
 
