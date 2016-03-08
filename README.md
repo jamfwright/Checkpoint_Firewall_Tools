@@ -2,7 +2,7 @@
 
 These are python tools to ease some of the administrative tasks for Checkpoint Firewalls running the Gaia OS.  Each script was designed for ease of use, and will ask you for information before executing.  One thing to have ready is a list of firewall IP addresses in a plain text/ascii file to use as input.
 
-You will need to ensure you have Paramiko installed. (pip install paramiko, or apt-get install python paramiko, or zypper in python-paramiko, or any other method)
+You will need to ensure you have Paramiko installed. (pip install paramiko, or apt-get install python-paramiko, or zypper in python-paramiko, or any other method)
 
 ssh_fw_password_change.py - Changing passwords can be a pain, especially in a larger environment.  This script will prompt you through the necessary information, then go out and change the password for the account indicated on all firewalls in the list.  A fail log is created as well, for manual follow-up.
 
